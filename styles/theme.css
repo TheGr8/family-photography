@@ -1,0 +1,50 @@
+/* Marmin Photography — warm retune of the Industry tokens.
+   Loaded after ds.css: a warm paper ground, a clay accent, and Outfit for headings. */
+:root {
+  --color-bg: #f6f1eb;
+  --color-surface: #efe7dd;
+  --color-text: #241f1b;
+  --color-accent: #94593a;
+  --color-accent-2: #94593a;
+  --color-divider: color-mix(in srgb, #241f1b 16%, transparent);
+
+  --color-neutral-100: #f8f5f1;
+  --color-neutral-200: #ece7e0;
+  --color-neutral-300: #dbd4cb;
+  --color-neutral-400: #c1b8ad;
+  --color-neutral-500: #a29890;
+  --color-neutral-600: #837a72;
+  --color-neutral-700: #655d56;
+  --color-neutral-800: #48423d;
+  --color-neutral-900: #2e2924;
+
+  --color-accent-100: #fdf4ee;
+  --color-accent-200: #f7e4d7;
+  --color-accent-300: #eecdb8;
+  --color-accent-400: #dfae91;
+  --color-accent-500: #c8906c;
+  --color-accent-600: #ad7451;
+  --color-accent-700: #8c583b;
+  --color-accent-800: #6b402a;
+  --color-accent-900: #45281a;
+
+  --color-accent-2-100: #fdf4ee;
+  --color-accent-2-200: #f7e4d7;
+  --color-accent-2-300: #eecdb8;
+  --color-accent-2-400: #dfae91;
+  --color-accent-2-500: #c8906c;
+  --color-accent-2-600: #ad7451;
+  --color-accent-2-700: #8c583b;
+  --color-accent-2-800: #6b402a;
+  --color-accent-2-900: #45281a;
+
+  --font-heading: "Outfit", system-ui, sans-serif;
+  --font-heading-weight: 600;
+  --font-body: "Barlow", system-ui, sans-serif;
+
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #2e2924 14%, transparent);
+  --shadow-md: 0 3px 10px color-mix(in srgb, #2e2924 16%, transparent);
+  --shadow-lg: 0 12px 32px color-mix(in srgb, #2e2924 22%, transparent);
+}
+
+body { background: var(--color-bg); color: var(--color-text); }

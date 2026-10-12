@@ -1,5 +1,5 @@
 export const site = {
-  name: 'Marmin Photography',
+  name: 'Maria Chicago Photography',
   email: 'info@marminphoto.com',
   phone: '(847) 555-1212',
   phoneHref: 'tel:+18475551212',

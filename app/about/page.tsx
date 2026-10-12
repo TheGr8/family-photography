@@ -24,7 +24,7 @@ export default function AboutPage() {
           </h1>
           <p className="mp-lede mp-lede--hero">
             I photographed my first newborn in 2014, a fortnight after my own son was born, and I have not worked from a
-            checklist since. Marmin Photography is one person: I answer the emails, I do the styling, I edit every
+            checklist since. Maria Chicago Photography is one person: I answer the emails, I do the styling, I edit every
             frame, and I am the one who will be sitting on your living-room floor at nine in the morning.
           </p>
           <p className="mp-lede mp-lede--hero" style={{ marginTop: 20 }}>
@@ -79,7 +79,7 @@ export default function AboutPage() {
           <Corners />
           <header className="mp-boxhead">
             <span>The practical facts</span>
-            <span>Marmin Photography</span>
+            <span>Maria Chicago Photography</span>
           </header>
           <div className="mp-stats" style={{ ['--min' as string]: '240px' }}>
             {facts.map((f) => (

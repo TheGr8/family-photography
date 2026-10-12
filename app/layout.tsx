@@ -8,8 +8,8 @@ import '@/styles/site.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Marmin Photography — Newborn & family photographer, Palatine IL',
-    template: '%s — Marmin Photography',
+    default: 'Maria Chicago Photography — Newborn & family photographer, Palatine IL',
+    template: '%s — Maria Chicago Photography',
   },
   description:
     'Newborn, maternity and family portraits in northwest Chicagoland — studio in Palatine, or at home.',

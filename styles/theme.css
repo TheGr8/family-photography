@@ -1,11 +1,11 @@
 /* Maria Chicago Photography — warm retune of the Industry tokens.
-   Loaded after ds.css: a warm paper ground, a clay accent, and Outfit for headings. */
+   Loaded after ds.css: a warm paper ground, a navy accent (from the logo), and Outfit for headings. */
 :root {
   --color-bg: #f6f1eb;
   --color-surface: #efe7dd;
   --color-text: #241f1b;
-  --color-accent: #94593a;
-  --color-accent-2: #94593a;
+  --color-accent: #021c4c;
+  --color-accent-2: #021c4c;
   --color-divider: color-mix(in srgb, #241f1b 16%, transparent);
 
   --color-neutral-100: #f8f5f1;
@@ -18,25 +18,25 @@
   --color-neutral-800: #48423d;
   --color-neutral-900: #2e2924;
 
-  --color-accent-100: #fdf4ee;
-  --color-accent-200: #f7e4d7;
-  --color-accent-300: #eecdb8;
-  --color-accent-400: #dfae91;
-  --color-accent-500: #c8906c;
-  --color-accent-600: #ad7451;
-  --color-accent-700: #8c583b;
-  --color-accent-800: #6b402a;
-  --color-accent-900: #45281a;
+  --color-accent-100: #eef2fa;
+  --color-accent-200: #d5deef;
+  --color-accent-300: #b0c0e0;
+  --color-accent-400: #8199c4;
+  --color-accent-500: #4f6ba3;
+  --color-accent-600: #26447f;
+  --color-accent-700: #021c4c;
+  --color-accent-800: #01153a;
+  --color-accent-900: #010d26;
 
-  --color-accent-2-100: #fdf4ee;
-  --color-accent-2-200: #f7e4d7;
-  --color-accent-2-300: #eecdb8;
-  --color-accent-2-400: #dfae91;
-  --color-accent-2-500: #c8906c;
-  --color-accent-2-600: #ad7451;
-  --color-accent-2-700: #8c583b;
-  --color-accent-2-800: #6b402a;
-  --color-accent-2-900: #45281a;
+  --color-accent-2-100: #eef2fa;
+  --color-accent-2-200: #d5deef;
+  --color-accent-2-300: #b0c0e0;
+  --color-accent-2-400: #8199c4;
+  --color-accent-2-500: #4f6ba3;
+  --color-accent-2-600: #26447f;
+  --color-accent-2-700: #021c4c;
+  --color-accent-2-800: #01153a;
+  --color-accent-2-900: #010d26;
 
   --font-heading: "Outfit", system-ui, sans-serif;
   --font-heading-weight: 600;

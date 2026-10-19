@@ -21,7 +21,7 @@ npm start            # serve ./out locally
 | `app/` | One folder per page, plus the shared layout and 404 |
 | `components/` | Nav, footer, blueprint frames, gallery + lightbox, contact form |
 | `styles/ds.css` | The "Industry" design-system tokens and component classes |
-| `styles/theme.css` | Maria Chicago's warm retune (paper ground, clay accent, Outfit headings) |
+| `styles/theme.css` | Maria Chicago's warm retune (paper ground, navy accent, Outfit headings) |
 | `styles/site.css` | Page styles shared across pages |
 | `lib/motion.ts` | GSAP reveal sequence ported from the design's `motion.js` (respects reduced motion) |
 | `lib/images.ts` | Which photograph fills each image slot |

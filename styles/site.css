@@ -24,6 +24,9 @@ a:hover { color: var(--color-accent); }
   flex-wrap: wrap; row-gap: 8px;
 }
 .mp-nav .nav-brand { letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none; color: var(--color-text); }
+.mp-nav .nav-brand { display: flex; align-items: center; }
+.mp-logo { display: block; height: 34px; width: auto; }
+@media (max-width: 620px) { .mp-logo { height: 28px; } }
 .mp-navlinks { display: flex; gap: clamp(14px, 2.2vw, 28px); align-items: center; margin-right: 20px; }
 .mp-navlinks a { text-decoration: none; font-size: 14px; letter-spacing: 0.05em; text-transform: uppercase; color: inherit; }
 .nav .btn-primary, .mp-stickybar .btn-primary { color: var(--color-bg); }

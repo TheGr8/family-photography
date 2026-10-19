@@ -10,7 +10,10 @@ export default function SiteNav() {
     <>
       <div className="mp-navwrap">
         <nav className="nav mp-nav" aria-label="Main">
-          <Link className="nav-brand" href="/">{site.name}</Link>
+          <Link className="nav-brand" href="/" aria-label={site.name}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="mp-logo" src="/images/logo.png" alt={site.name} width={1880} height={320} />
+          </Link>
           <span className="mp-navlinks">
             {navLinks.map((l) => (
               <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined}>
